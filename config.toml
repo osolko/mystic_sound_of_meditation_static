@@ -30,7 +30,7 @@ home= "Home"
 logo = "images/logo_main.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "This meditative music features mystic, philosophical and relaxing elements, designed to evoke a "continuum of spatial imagery and emotion", making it perfect for introspection and self-development through deep listening and awareness."
+description = "This meditative music features mystic, philosophical and relaxing elements, designed to evoke a /"continuum of spatial imagery and emotion/", making it perfect for introspection and self-development through deep listening and awareness."
 author = "sound4hypno@gmail.com"
 # Google Analitycs
 googleAnalitycsID = "UA-107044380-2"
