@@ -46,7 +46,7 @@ custom_css = ["css/custom.css"]
     #icon = "tf-ion-play"
     #heading = "Experience the new reality"
     #content= "Welcome to my site, where all of the music has been crafted for relaxation and rest. "
-    btn = true
+    btn = false
     btnText="About Us"
     btnURL="#services"
 
