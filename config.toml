@@ -27,7 +27,7 @@ theme = "meghna"
 # Site params
 [params]
 home= "Home"
-logo = "images/logo_main.png"
+logo = "images/logo_old.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "This meditative music features mystic, philosophical and relaxing elements, designed to evoke a 'continuum of spatial imagery and emotion', making it perfect for introspection and self-development through deep listening and awareness."
