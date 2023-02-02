@@ -1,45 +1,27 @@
-baseURL = "https://shamdo.netlify.app/"
+baseURL = "https://mysticsoundofmeditation.netlify.app/"
 languageCode = "ru-ru"
-title = "Shamdo"
+title = "Mystic Sound of Meditation"
 theme = "meghna"
   
 
 # Menu
 [menu]
     [[menu.nav]]
-    name = "Гипнотест"
+    name = "todo"
     URL = "hyptest"
     weight = 2
 
     [[menu.nav]]
-    name = "Релаксационные техники"
+    name = "todo"
     URL = "category/relax"
     weight = 3
 
-    [[menu.nav]]
-    name = "Техники для засыпания"
-    URL = "category/sleeptrack"
-    weight = 4
+#    [[menu.nav]]
+#    name = "Техники для засыпания"
+#    URL = "category/sleeptrack"
+#    weight = 4
 
-    [[menu.nav]]
-    name = "Динамические практики"
-    URL = "category/dynamic"
-    weight = 5
 
-    [[menu.nav]]
-    name = "Медитации-размышления"
-    URL = "category/meditation"
-    weight = 6
-
-    [[menu.nav]]
-    name = "Фобии"
-    URL = "category/fobias"
-    weight = 7
-
-    [[menu.nav]]
-    name = "Гипно путешествия"
-    URL = "category/trips"
-    weight = 8
 
 
 
@@ -109,21 +91,21 @@ custom_css = ["css/custom.css"]
         # social Icons
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-facebook"
-        url = "https://www.facebook.com/shamdo.studio/"
+        url = "https://www.facebook.com/HypMe"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-instagram"
-        url = "https://www.instagram.com/shamdo.studio/"
+        url = "https://www.instagram.com/mysticsoundofmeditation/"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
-        url = "https://www.youtube.com/channel/UCZyOb8q-WbZt_x-b7FGKvpA"
+        url = "youtube.com/c/MysticSoundofMeditation"
 
-      	[[params.footer.socialIcon]]
-        icon = "tf-ion-social-vimeo"
-        url = "https://vk.com/shamdo"
+#      	[[params.footer.socialIcon]]
+#        icon = "tf-ion-social-vimeo"
+#        url = "https://"
 
-      	[[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "https://twitter.com/Shamdo_"
+#      	[[params.footer.socialIcon]]
+#        icon = "tf-ion-social-twitter"
+#        url = "https://"
 
