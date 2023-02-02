@@ -98,13 +98,9 @@ custom_css = ["css/custom.css"]
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
         url = "youtube.com/c/MysticSoundofMeditation"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-coffee"
-        url = "youtube.com/c/MysticSoundofMeditation"
 
       	[[params.footer.socialIcon]]
-        icon = "tf-ion-social-vimeo"
+        icon = "tf-ion-coffee"
         url = "https://ko-fi.com/mysticsoundofmeditation/shop"
 
 #      	[[params.footer.socialIcon]]
