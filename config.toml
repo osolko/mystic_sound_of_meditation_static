@@ -12,7 +12,7 @@ theme = "meghna"
     weight = 2
 
     [[menu.nav]]
-    name = "todo"
+    name = "todo-1"
     URL = "category/relax"
     weight = 3
 
@@ -24,16 +24,14 @@ theme = "meghna"
 
 
 
-
-
 # Site params
 [params]
 home= "Home"
-logo = "images/logo.png"
+logo = "images/logo_main.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "Гипноз и медитации. Серия медитаций и гипнотических индукций предназначена для людей, желающих глубже проникнуть в свою психику, подключить незадействованные ресурсы своего мозга и продолжать совершенствовать свою личность в повседневной жизни."
-author = "shamdo.studio@gmail.com"
+description = "This meditative music features mystic, philosophical and relaxing elements, designed to evoke a "continuum of spatial imagery and emotion", making it perfect for introspection and self-development through deep listening and awareness."
+author = "sound4hypno@gmail.com"
 # Google Analitycs
 googleAnalitycsID = "UA-107044380-2"
 custom_css = ["css/custom.css"]
@@ -47,9 +45,9 @@ custom_css = ["css/custom.css"]
     
     #icon = "tf-ion-play"
     #heading = "Experience the new reality"
-    #content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
-    btn = false
-    btnText="Explore Us"
+    #content= "Welcome to my site, where all of the music has been crafted for relaxation and rest. "
+    btn = true
+    btnText="About Us"
     btnURL="#services"
 
     # call to action
