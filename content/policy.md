@@ -8,7 +8,7 @@ image: images/logo.png
 <span> </span>
 <div class="policy" style="color: #fff;">
 Who we are?
-Our website addresses are: shamdo.ml , shamdo.com , shamdo.ru
+Our registered label is: Mystoc sound of Meditation
 
 What personal data we collect and why we collect it
 Comments
