@@ -1,0 +1,129 @@
+baseURL = "https://shamdo.netlify.app/"
+languageCode = "ru-ru"
+title = "Shamdo"
+theme = "meghna"
+  
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Гипнотест"
+    URL = "hyptest"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Релаксационные техники"
+    URL = "category/relax"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Техники для засыпания"
+    URL = "category/sleeptrack"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Динамические практики"
+    URL = "category/dynamic"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Медитации-размышления"
+    URL = "category/meditation"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Фобии"
+    URL = "category/fobias"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Гипно путешествия"
+    URL = "category/trips"
+    weight = 8
+
+
+
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Гипноз и медитации. Серия медитаций и гипнотических индукций предназначена для людей, желающих глубже проникнуть в свою психику, подключить незадействованные ресурсы своего мозга и продолжать совершенствовать свою личность в повседневной жизни."
+author = "shamdo.studio@gmail.com"
+# Google Analitycs
+googleAnalitycsID = "UA-107044380-2"
+custom_css = ["css/custom.css"]
+
+
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    #bgImage = "images/slider/cosmos-wall-2000x1200.jpg"
+    
+    #icon = "tf-ion-play"
+    #heading = "Experience the new reality"
+    #content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    btn = false
+    btnText="Explore Us"
+    btnURL="#services"
+
+    # call to action
+    [params.cta]
+    enable = false
+    title = "Great Design & Incredible Features"
+    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    
+    btnURL = "#"
+    btnText = "Start a project with us"
+
+    # counter
+    [params.counter]
+    enable = false
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/shamdo.studio/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-instagram"
+        url = "https://www.instagram.com/shamdo.studio/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "https://www.youtube.com/channel/UCZyOb8q-WbZt_x-b7FGKvpA"
+
+      	[[params.footer.socialIcon]]
+        icon = "tf-ion-social-vimeo"
+        url = "https://vk.com/shamdo"
+
+      	[[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/Shamdo_"
+

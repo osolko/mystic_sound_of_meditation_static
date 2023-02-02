@@ -1,0 +1,40 @@
+{{ if .Site.Data.about.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+
+
+{{ partial  "objects/about_video.html" .  }}
+
+{{ partial "objects/store_buttons.html" . }}
+
+
+<section class="about section" id="about" style="padding: 35px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+               
+            </div> 
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.about.aboutItem }}
+            {{"<!-- About item -->" | safeHTML}}
+            <div class="col-lg-12 text-center" >
+                <div class="block">
+                    <!-- <div class="icon-box">
+                        {{with .icon}}<i class="{{ . }}"></i>{{ end }}
+                    </div> -->
+                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                    <div class="content text-center" >
+<!--                         {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }} -->  
+                        {{ with .content}} <p>{{ . }}</p>{{ end }}
+                        {{ with .content_1}} <p>{{ . }}</p>{{ end }}
+                        {{ with .content_2}} <p>{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
